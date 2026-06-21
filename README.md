@@ -20,6 +20,23 @@ brew tap clipory/tap
 brew install --cask clipory
 ```
 
+## Update
+
+Clipory updates **itself** via its built-in Sparkle updater — a daily background check (on by
+default) plus **Clipory ▸ Check for Updates…** in the app. An app installed with Homebrew is
+the same notarized build, so it stays current automatically; most users never run an update
+command.
+
+Because the cask is marked `auto_updates true`, plain `brew upgrade` intentionally **skips**
+Clipory (so Homebrew and Sparkle don't fight over it). To force an update through Homebrew
+anyway:
+
+```sh
+brew upgrade --cask --greedy clipory
+```
+
+The `--greedy` flag is required — it's what tells `brew` to include self-updating casks.
+
 ## Uninstall
 
 ```sh
