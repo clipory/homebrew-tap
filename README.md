@@ -6,7 +6,7 @@ keyboard-first clipboard manager for macOS.
 ## Install
 
 ```sh
-brew install --cask demiaochen/tap/clipory
+brew install --cask clipory/tap/clipory
 ```
 
 That auto-taps this repo and installs the latest notarized `Clipory.app` into
@@ -16,7 +16,7 @@ Homebrew to stay out of Sparkle's way, so `brew upgrade` won't fight it.
 Prefer to tap explicitly first?
 
 ```sh
-brew tap demiaochen/tap
+brew tap clipory/tap
 brew install --cask clipory
 ```
 
