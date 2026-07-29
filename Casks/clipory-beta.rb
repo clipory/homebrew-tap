@@ -1,6 +1,6 @@
 cask "clipory-beta" do
-  version "1.4.0-beta.16"
-  sha256 "73efa65d8cb625b5f05aba433d552cf64c6fd3e2aafa82c70768360886a40eeb"
+  version "1.4.0-beta.17"
+  sha256 "e0d4308eefa5a7864650bac993297db732b59324e84493f28db6655f2ade731b"
 
   url "https://dl.clipory.app/beta/Clipory-#{version}.dmg"
   name "Clipory (Beta)"
