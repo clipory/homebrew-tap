@@ -1,6 +1,6 @@
 cask "clipory" do
-  version "1.3.0"
-  sha256 "612d810bf181566cf19f9663f5ea5a55218a527747ab6f740d54a70cd328004b"
+  version "1.4.0"
+  sha256 "72b36bebcc800053db537e16253da32a0b4da582b993276ee587133ebb7115b3"
 
   url "https://dl.clipory.app/Clipory-#{version}.dmg"
   name "Clipory"
